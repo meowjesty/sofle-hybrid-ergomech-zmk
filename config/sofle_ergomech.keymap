@@ -33,11 +33,15 @@
         to-layer-coder {
             bindings = <&to 0>;
             key-positions = <1 12>;
+            layers = <0 1 2 3>;
+            timeout-ms = <120>;
         };
 
         to-layer-symbols {
             bindings = <&to 1>;
             key-positions = <12 2>;
+            layers = <0 1 2 3>;
+            timeout-ms = <120>;
         };
     };
 
