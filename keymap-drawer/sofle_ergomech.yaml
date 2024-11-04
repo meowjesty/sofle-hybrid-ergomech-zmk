@@ -199,5 +199,7 @@ layers:
 combos:
 - p: [1, 12]
   k: {t: coder, h: toggle}
+  l: [coder, symbols, raise, adjust]
 - p: [12, 2]
   k: {t: symbols, h: toggle}
+  l: [coder, symbols, raise, adjust]
