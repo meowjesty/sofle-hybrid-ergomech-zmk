@@ -12,7 +12,7 @@ layers:
   - '9'
   - '0'
   - '-'
-  - {t: dev, h: toggle}
+  - {t: ▽, type: trans}
   - Q
   - W
   - E
@@ -142,7 +142,7 @@ layers:
   - KP MINUS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: dev, h: toggle}
   - INSERT
   - HOME
   - PAGE UP
@@ -330,4 +330,7 @@ combos:
   l: [dev, fs_symbols, raise, adjust]
 - p: [12, 2]
   k: {t: fs_symbols, h: toggle}
+  l: [dev, fs_symbols, raise, adjust]
+- p: [12, 3]
+  k: {t: fns_numpad, h: toggle}
   l: [dev, fs_symbols, raise, adjust]

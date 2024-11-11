@@ -167,11 +167,9 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">-</text>
 </g>
-<g transform="translate(28, 101)" class="key keypos-12">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#dev">
-<text x="0" y="0" class="key tap layer-activator">dev</text>
-</a><text x="0" y="24" class="key hold">toggle</text>
+<g transform="translate(28, 101)" class="key trans keypos-12">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(84, 101)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -394,6 +392,14 @@ path.combo {
 <a href="#fs_symbols">
 <text x="84" y="69" class="combo tap layer-activator"><tspan style="font-size: 70%">fs_symbols</tspan></text>
 </a><text x="84" y="80" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-2">
+<path d="M112,64 l-67,29" class="combo"/>
+<path d="M112,64 l67,-29" class="combo"/>
+<rect rx="6" ry="6" x="98" y="51" width="28" height="26" class="combo"/>
+<a href="#fns_numpad">
+<text x="112" y="64" class="combo tap layer-activator"><tspan style="font-size: 70%">fns_numpad</tspan></text>
+</a><text x="112" y="75" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -683,6 +689,14 @@ path.combo {
 <text x="84" y="69" class="combo tap layer-activator"><tspan style="font-size: 70%">fs_symbols</tspan></text>
 </a><text x="84" y="80" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-2">
+<path d="M112,64 l-67,29" class="combo"/>
+<path d="M112,64 l67,-29" class="combo"/>
+<rect rx="6" ry="6" x="98" y="51" width="28" height="26" class="combo"/>
+<a href="#fns_numpad">
+<text x="112" y="64" class="combo tap layer-activator"><tspan style="font-size: 70%">fns_numpad</tspan></text>
+</a><text x="112" y="75" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1042)" class="layer-fns_numpad">
@@ -746,9 +760,11 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(28, 101)" class="key trans keypos-12">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(28, 101)" class="key keypos-12">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<a href="#dev">
+<text x="0" y="0" class="key tap layer-activator">dev</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(84, 101)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1276,6 +1292,14 @@ path.combo {
 <text x="84" y="69" class="combo tap layer-activator"><tspan style="font-size: 70%">fs_symbols</tspan></text>
 </a><text x="84" y="80" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-2">
+<path d="M112,64 l-67,29" class="combo"/>
+<path d="M112,64 l67,-29" class="combo"/>
+<rect rx="6" ry="6" x="98" y="51" width="28" height="26" class="combo"/>
+<a href="#fns_numpad">
+<text x="112" y="64" class="combo tap layer-activator"><tspan style="font-size: 70%">fns_numpad</tspan></text>
+</a><text x="112" y="75" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 2083)" class="layer-adjust">
@@ -1531,6 +1555,14 @@ path.combo {
 <a href="#fs_symbols">
 <text x="84" y="69" class="combo tap layer-activator"><tspan style="font-size: 70%">fs_symbols</tspan></text>
 </a><text x="84" y="80" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-2">
+<path d="M112,64 l-67,29" class="combo"/>
+<path d="M112,64 l67,-29" class="combo"/>
+<rect rx="6" ry="6" x="98" y="51" width="28" height="26" class="combo"/>
+<a href="#fns_numpad">
+<text x="112" y="64" class="combo tap layer-activator"><tspan style="font-size: 70%">fns_numpad</tspan></text>
+</a><text x="112" y="75" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
