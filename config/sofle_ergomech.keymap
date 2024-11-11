@@ -45,6 +45,22 @@
         };
     };
 
+    macros {
+        ctrl_f5: ctrl_f5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LCTRL &kp F5>;
+            label = "CTRL_F5";
+        };
+
+        alt_f4: alt_f4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LEFT_ALT &kp F4>;
+            label = "ALT_F4";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -84,12 +100,12 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5   &kp LESS_THAN  &kp MINUS       &kp GREATER_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HASH
-&to 0   &kp F1   &kp F2   &kp F3  &kp F4  &kp F5   &kp QUESTION   &kp UNDERSCORE  &kp EQUAL         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SLASH
-&trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &kp EXCL       &kp AMPS        &kp ASTRK         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS
-&trans  &kp F11  &kp F12  &trans  &trans  &trans   &kp DOT        &kp COLON       &kp SEMI          &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES      &kp AT
-&trans  &trans   &trans   &trans  &trans  &trans   &trans         &trans          &kp TILDE         &kp GRAVE             &kp PIPE
-                                                   &trans         &trans          &trans            &trans                &trans
+&alt_f4  &trans   &trans   &trans  &trans  &trans    &kp LESS_THAN  &kp MINUS       &kp GREATER_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HASH
+&to 0    &kp F1   &kp F2   &kp F3  &kp F4  &kp F5    &kp QUESTION   &kp UNDERSCORE  &kp EQUAL         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SLASH
+&trans   &kp F6   &kp F7   &kp F8  &kp F9  &kp F10   &kp EXCL       &kp AMPS        &kp ASTRK         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS
+&trans   &kp F11  &kp F12  &trans  &trans  &ctrl_f5  &kp DOT        &kp COLON       &kp SEMI          &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES      &kp AT
+&trans   &trans   &trans   &trans  &trans  &trans    &trans         &kp BACKSLASH   &kp PIPE          &kp GRAVE             &kp TILDE
+                                                     &trans         &trans          &trans            &trans                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
