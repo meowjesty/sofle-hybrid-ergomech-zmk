@@ -55,7 +55,7 @@ layers:
   - fs_symbols
   - SPACE
   - ESCAPE
-  - functions_numpad
+  - fns_numpad
   - RCTRL
   - RALT
   - RGUI
@@ -129,7 +129,7 @@ layers:
   - Ctl+ K
   - Ctl+ H
   - Ctl+ J
-  functions_numpad:
+  fns_numpad:
   - {t: ▽, type: trans}
   - PRINTSCREEN
   - SCROLLLOCK

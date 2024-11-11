@@ -344,8 +344,8 @@ path.combo {
 </g>
 <g transform="translate(546, 272)" class="key keypos-55">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#functions_numpad">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 64%">functions_…</tspan></text>
+<a href="#fns_numpad">
+<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 70%">fns_numpad</tspan></text>
 </a></g>
 <g transform="translate(602, 260)" class="key keypos-56">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -685,8 +685,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1042)" class="layer-functions_numpad">
-<text x="0" y="28" class="label" id="functions_numpad">functions_numpad:</text>
+<g transform="translate(30, 1042)" class="layer-fns_numpad">
+<text x="0" y="28" class="label" id="fns_numpad">fns_numpad:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 45)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
