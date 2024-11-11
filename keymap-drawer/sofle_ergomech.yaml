@@ -52,10 +52,10 @@ layers:
   - LGUI
   - LALT
   - LCTRL
-  - L-fs_R-symbols
+  - fs_symbols
   - SPACE
   - ESCAPE
-  - raise
+  - functions_numpad
   - RCTRL
   - RALT
   - RGUI
@@ -64,8 +64,8 @@ layers:
   - UP ARROW
   - LEFT
   - DOWN
-  L-fs_R-symbols:
-  - '&alt_f4'
+  fs_symbols:
+  - Alt+ F4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -106,7 +106,7 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&ctrl_f5'
+  - Ctl+ F5
   - .
   - ':'
   - ;
@@ -124,6 +124,71 @@ layers:
   - '|'
   - '`'
   - '~'
+  - {t: ▽, type: trans}
+  - Ctl+ L
+  - Ctl+ K
+  - Ctl+ H
+  - Ctl+ J
+  functions_numpad:
+  - {t: ▽, type: trans}
+  - PRINTSCREEN
+  - SCROLLLOCK
+  - PAUSE BREAK
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP NUMLOCK
+  - KP DIVIDE
+  - KP MULTIPLY
+  - KP MINUS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - INSERT
+  - HOME
+  - PAGE UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP PLUS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - DEL
+  - END
+  - PAGE DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP ENTER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: KP 0, type: held}
+  - KP 0
+  - KP DOT
+  - KP ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -185,7 +250,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -250,7 +315,7 @@ layers:
   - {type: held}
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
@@ -262,7 +327,7 @@ layers:
 combos:
 - p: [1, 12]
   k: {t: dev, h: toggle}
-  l: [dev, L-fs_R-symbols, raise, adjust]
+  l: [dev, fs_symbols, raise, adjust]
 - p: [12, 2]
-  k: {t: L-fs_R-symbols, h: toggle}
-  l: [dev, L-fs_R-symbols, raise, adjust]
+  k: {t: fs_symbols, h: toggle}
+  l: [dev, fs_symbols, raise, adjust]
