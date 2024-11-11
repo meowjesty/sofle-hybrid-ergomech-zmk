@@ -1,7 +1,70 @@
 layers:
-  coder: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '', Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X,
-    C, V, B, N, M, ',', ., /, ENTER, MUTE, LGUI, LALT, LCTRL, symbols, SPACE, ESCAPE, raise, RCTRL, RALT, RGUI, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
-  symbols:
+  dev:
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '-'
+  - {t: dev, h: toggle}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - TAB
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ENTER
+  - MUTE
+  - LGUI
+  - LALT
+  - LCTRL
+  - L-fs_R-symbols
+  - SPACE
+  - ESCAPE
+  - raise
+  - RCTRL
+  - RALT
+  - RGUI
+  - ENTER
+  - RIGHT
+  - UP ARROW
+  - LEFT
+  - DOWN
+  L-fs_R-symbols:
   - {t: ▽, type: trans}
   - F1
   - F2
@@ -14,12 +77,12 @@ layers:
   - (
   - )
   - '#'
-  - '`'
-  - F6
-  - F7
-  - F8
-  - F10
-  - F11
+  - {t: dev, h: toggle}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - '?'
   - _
   - '='
@@ -27,11 +90,11 @@ layers:
   - '}'
   - /
   - {t: ▽, type: trans}
-  - F12
-  - ''
-  - ''
-  - ''
-  - ''
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
   - '!'
   - '&'
   - '*'
@@ -39,11 +102,11 @@ layers:
   - ']'
   - +
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - .
   - ':'
   - ;
@@ -58,9 +121,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '~'
+  - '`'
+  - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -198,8 +261,8 @@ layers:
   - E
 combos:
 - p: [1, 12]
-  k: {t: coder, h: toggle}
-  l: [coder, symbols, raise, adjust]
+  k: {t: dev, h: toggle}
+  l: [dev, L-fs_R-symbols, raise, adjust]
 - p: [12, 2]
-  k: {t: symbols, h: toggle}
-  l: [coder, symbols, raise, adjust]
+  k: {t: L-fs_R-symbols, h: toggle}
+  l: [dev, L-fs_R-symbols, raise, adjust]
