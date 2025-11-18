@@ -55,8 +55,8 @@
     keymap {
         compatible = "zmk,keymap";
 
-        dev {
-            label = "default";
+        default {
+            label = "dev";
 
             // ------------------------------------------------------------------------------------------------------------
             // |   `   |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |       |
@@ -79,8 +79,8 @@
                 <&inc_dec_kp PG_UP PG_UP>;
         };
 
-        fs_symbols {
-            label = "left";
+        left {
+            label = "f_symbols";
 
             // TODO: Some binds are waiting for shifted keycode support.
             // ------------------------------------------------------------------------------------------------------------
@@ -104,18 +104,18 @@
                 <&inc_dec_kp PG_UP PG_DN>;
         };
 
-        fns_nav {
+        right {
             bindings = <
-&trans  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans  &trans  &kp KP_NUMLOCK  &kp KP_DIVIDE   &kp KP_MULTIPLY  &kp KP_MINUS     &trans  &trans
-&trans  &kp INSERT       &kp HOME        &kp PAGE_UP      &trans  &trans  &kp LA(H)       &kp LA(J)       &kp LA(K)        &kp LA(L)        &trans  &trans
-&trans  &kp DEL          &kp END         &kp PAGE_DOWN    &trans  &trans  &kp LC(H)       &kp LC(J)       &kp LC(K)        &kp LC(L)        &trans  &trans
-&trans  &trans           &trans          &trans           &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans           &trans          &trans           &trans  &trans  &trans          &trans          &trans           &trans           &trans
-                                                                          &none           &none           &none            &none            &none
+&trans  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans  &kp LA(T)  &kp LA(LEFT_ARROW)  &kp LA(DOWN)    &kp LA(UP_ARROW)  &kp LA(RIGHT)    &trans        &trans
+&trans  &kp INSERT       &kp HOME        &kp PAGE_UP      &trans  &kp LA(V)  &kp LA(H)           &kp LA(J)       &kp LA(K)         &kp LA(L)        &kp LA(H)     &kp LA(L)
+&trans  &kp DEL          &kp END         &kp PAGE_DOWN    &trans  &kp LA(S)  &kp LC(H)           &kp LC(J)       &kp LC(K)         &kp LC(L)        &kp LC(H)     &kp LC(L)
+&trans  &trans           &trans          &trans           &trans  &trans     &kp LEFT_ARROW      &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT_ARROW  &kp LA(LEFT)  &kp LA(RIGHT)
+&trans  &trans           &trans          &trans           &trans  &trans     &trans              &trans          &trans            &trans           &trans
+                                                                             &none               &none           &none             &none            &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
-            label = "right";
+            label = "fn_nav";
         };
 
         raise_layer {
