@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
-  default:
+  dev:
   - '`'
   - '1'
   - '2'
@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - '-'
-  - {t: default, h: toggle}
+  - {t: dev, h: toggle}
   - Q
   - W
   - E
@@ -53,10 +53,10 @@ layers:
   - LGUI
   - LALT
   - LCTRL
-  - left
+  - f_symbols
   - SPACE
   - ESCAPE
-  - right
+  - fn_nav
   - RCTRL
   - RALT
   - RGUI
@@ -65,7 +65,7 @@ layers:
   - ''
   - ''
   - ''
-  left:
+  f_symbols:
   - Alt+F4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -130,17 +130,17 @@ layers:
   - ''
   - ''
   - ''
-  right:
+  fn_nav:
   - {t: ▽, type: trans}
   - PRINTSCREEN
   - SCROLLLOCK
   - PAUSE BREAK
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - KP NUMLOCK
-  - KP DIVIDE
-  - KP MULTIPLY
-  - KP MINUS
+  - Alt+T
+  - Alt+LEFT ARROW
+  - Alt+DOWN
+  - Alt+UP ARROW
+  - Alt+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -148,25 +148,25 @@ layers:
   - HOME
   - PAGE UP
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+V
   - Alt+H
   - Alt+J
   - Alt+K
   - Alt+L
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+H
+  - Alt+L
   - {t: ▽, type: trans}
   - DEL
   - END
   - PAGE DOWN
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+S
   - Ctl+H
   - Ctl+J
   - Ctl+K
   - Ctl+L
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+H
+  - Ctl+L
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -177,8 +177,8 @@ layers:
   - DOWN ARROW
   - UP ARROW
   - RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+LEFT
+  - Alt+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -327,11 +327,11 @@ layers:
   - ''
 combos:
 - p: [1, 12]
-  k: {t: default, h: toggle}
-  l: [default, left, raise, adjust]
+  k: {t: dev, h: toggle}
+  l: [dev, f_symbols, raise, adjust]
 - p: [12, 2]
-  k: {t: left, h: toggle}
-  l: [default, left, raise, adjust]
+  k: {t: f_symbols, h: toggle}
+  l: [dev, f_symbols, raise, adjust]
 - p: [12, 3]
-  k: {t: right, h: toggle}
-  l: [default, left, raise, adjust]
+  k: {t: fn_nav, h: toggle}
+  l: [dev, f_symbols, raise, adjust]
