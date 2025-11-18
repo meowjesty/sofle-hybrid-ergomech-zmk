@@ -149,10 +149,10 @@ layers:
   - PAGE UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP PLUS
+  - Alt+H
+  - Alt+J
+  - Alt+K
+  - Alt+L
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -161,10 +161,10 @@ layers:
   - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
+  - Ctl+H
+  - Ctl+J
+  - Ctl+K
+  - Ctl+L
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -173,10 +173,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP ENTER
+  - LEFT ARROW
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
