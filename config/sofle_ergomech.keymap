@@ -106,12 +106,12 @@
 
         fns_nav {
             bindings = <
-&trans  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans  &trans  &kp KP_NUMLOCK   &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_MINUS  &trans        &trans
-&to 0   &kp INSERT       &kp HOME        &kp PAGE_UP      &trans  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS   &trans        &trans
-&trans  &kp DEL          &kp END         &kp PAGE_DOWN    &trans  &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &trans        &trans
-&trans  &trans           &trans          &trans           &trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER  &trans        &trans
-&trans  &trans           &trans          &trans           &trans  &trans  &trans           &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp KP_DOT    &kp KP_ENTER
-                                                                          &trans           &trans           &trans           &trans        &trans
+&trans  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans  &trans  &kp KP_NUMLOCK  &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_MINUS     &trans        &trans
+&to 0   &kp INSERT       &kp HOME        &kp PAGE_UP      &trans  &trans  &kp LA(H)       &kp LA(J)        &kp LA(K)        &kp LA(L)        &trans        &trans
+&trans  &kp DEL          &kp END         &kp PAGE_DOWN    &trans  &trans  &kp LC(H)       &kp LC(J)        &kp LC(K)        &kp LC(L)        &trans        &trans
+&trans  &trans           &trans          &trans           &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW  &trans        &trans
+&trans  &trans           &trans          &trans           &trans  &trans  &trans          &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_ENTER
+                                                                          &trans          &trans           &trans           &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
