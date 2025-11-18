@@ -92,11 +92,11 @@
 
             bindings = <
 &kp LA(F4)  &trans   &trans   &trans  &trans  &trans      &kp LESS_THAN  &kp MINUS          &kp GREATER_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HASH
-&to 0       &kp F1   &kp F2   &kp F3  &kp F4  &kp F5      &kp QUESTION   &kp UNDERSCORE     &kp EQUAL         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SLASH
+&trans      &kp F1   &kp F2   &kp F3  &kp F4  &kp F5      &kp QUESTION   &kp UNDERSCORE     &kp EQUAL         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SLASH
 &trans      &kp F6   &kp F7   &kp F8  &kp F9  &kp F10     &kp EXCL       &kp AMPS           &kp ASTRK         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS
 &trans      &kp F11  &kp F12  &trans  &trans  &kp LC(F5)  &kp BACKSLASH  &kp LS(BACKSLASH)  &kp SLASH         &trans                &trans                 &trans
 &trans      &trans   &trans   &trans  &trans  &trans      &trans         &trans             &trans            &trans                &trans
-                                                          &trans         &none              &none             &none                 &none
+                                                          &none          &none              &none             &none                 &none
             >;
 
             sensor-bindings =
@@ -106,12 +106,12 @@
 
         fns_nav {
             bindings = <
-&trans  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans  &trans  &kp KP_NUMLOCK  &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_MINUS     &trans        &trans
-&to 0   &kp INSERT       &kp HOME        &kp PAGE_UP      &trans  &trans  &kp LA(H)       &kp LA(J)        &kp LA(K)        &kp LA(L)        &trans        &trans
-&trans  &kp DEL          &kp END         &kp PAGE_DOWN    &trans  &trans  &kp LC(H)       &kp LC(J)        &kp LC(K)        &kp LC(L)        &trans        &trans
-&trans  &trans           &trans          &trans           &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW  &trans        &trans
-&trans  &trans           &trans          &trans           &trans  &trans  &trans          &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_ENTER
-                                                                          &trans          &trans           &trans           &trans           &trans
+&trans  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &trans  &trans  &kp KP_NUMLOCK  &kp KP_DIVIDE   &kp KP_MULTIPLY  &kp KP_MINUS     &trans  &trans
+&trans  &kp INSERT       &kp HOME        &kp PAGE_UP      &trans  &trans  &kp LA(H)       &kp LA(J)       &kp LA(K)        &kp LA(L)        &trans  &trans
+&trans  &kp DEL          &kp END         &kp PAGE_DOWN    &trans  &trans  &kp LC(H)       &kp LC(J)       &kp LC(K)        &kp LC(L)        &trans  &trans
+&trans  &trans           &trans          &trans           &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans           &trans          &trans           &trans  &trans  &trans          &trans          &trans           &trans           &trans
+                                                                          &none           &none           &none            &none            &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -134,7 +134,7 @@
 &trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK      &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
 &trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans     &trans    &trans    &trans     &trans   &trans
 &trans      &trans        &trans        &trans        &trans        &trans        &trans     &trans    &trans    &trans     &trans
-                                                                                  &kp A      &kp B     &kp C     &kp D      &kp E
+                                                                                  &none      &none     &none     &none      &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -155,7 +155,7 @@
 &none              &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &none            &none            &none            &none  &none  &none  &none  &none  &none
 &none              &none            &none            &none            &none            &none            &none  &none  &none  &none  &none  &none
 &rgb_ug RGB_TOG    &none            &none            &none            &none            &none            &none  &none  &none  &none  &none
-                                                                                                        &kp A  &kp B  &kp C  &kp D  &kp E
+                                                                                                        &none  &none  &none  &none  &none
             >;
         };
     };
