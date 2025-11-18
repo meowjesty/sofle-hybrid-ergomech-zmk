@@ -78,7 +78,7 @@ layers:
   - (
   - )
   - '#'
-  - {t: default, h: toggle}
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -125,7 +125,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   - ''
   - ''
   - ''
@@ -143,7 +143,7 @@ layers:
   - KP MINUS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: default, h: toggle}
+  - {t: ▽, type: trans}
   - INSERT
   - HOME
   - PAGE UP
@@ -186,15 +186,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: KP 0, type: held}
-  - KP 0
-  - KP DOT
-  - KP ENTER
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   raise:
   - BT CLR
   - {t: BT, h: '0'}
@@ -255,11 +255,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - A
-  - B
-  - C
-  - D
-  - E
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
@@ -320,11 +320,11 @@ layers:
   - ''
   - ''
   - ''
-  - A
-  - B
-  - C
-  - D
-  - E
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
 combos:
 - p: [1, 12]
   k: {t: default, h: toggle}
